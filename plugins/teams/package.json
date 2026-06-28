@@ -1,0 +1,28 @@
+{
+  "name": "@agentplugins-teams/teams",
+  "version": "0.1.0",
+  "description": "Implicit peer workflow — /team spawns roster agents as teammates sharing a task list",
+  "type": "module",
+  "keywords": [
+    "agentplugins",
+    "teams",
+    "peer-coordination",
+    "agent-teams",
+    "workflow"
+  ],
+  "scripts": {
+    "build": "agentplugins build",
+    "validate": "agentplugins validate",
+    "lint": "agentplugins lint"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/espetro/agentplugins-teams.git",
+    "directory": "plugins/teams"
+  },
+  "devDependencies": {
+    "@agentplugins/core": "^0.5.0",
+    "typescript": "^5.5.0"
+  }
+}

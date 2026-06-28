@@ -1,0 +1,27 @@
+{
+  "name": "@agentplugins-teams/orchestrator",
+  "version": "0.1.0",
+  "description": "Explicit lead workflow — /orchestrate fans out tasks to roster agents as named subagents",
+  "type": "module",
+  "keywords": [
+    "agentplugins",
+    "orchestration",
+    "subagents",
+    "workflow"
+  ],
+  "scripts": {
+    "build": "agentplugins build",
+    "validate": "agentplugins validate",
+    "lint": "agentplugins lint"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/espetro/agentplugins-teams.git",
+    "directory": "plugins/orchestrator"
+  },
+  "devDependencies": {
+    "@agentplugins/core": "^0.5.0",
+    "typescript": "^5.5.0"
+  }
+}

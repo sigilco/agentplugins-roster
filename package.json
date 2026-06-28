@@ -1,0 +1,25 @@
+{
+  "name": "agentplugins-teams",
+  "version": "0.1.0",
+  "description": "Orchestration plugins for agentplugins — roster, orchestrator, and teams workflows",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "validate": "pnpm -r validate",
+    "lint": "pnpm -r lint"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/espetro/agentplugins-teams"
+  },
+  "devDependencies": {
+    "@agentplugins/core": "^0.5.0",
+    "typescript": "^5.5.0"
+  },
+  "notes": {
+    "localDev": "v0.5.0 not yet published. Symlink local core for development: ln -s ../../agentplugins/packages/core node_modules/@agentplugins/core",
+    "cliDev": "agentplugins build requires @agentplugins/cli globally: npm i -g @agentplugins/cli (or use the local link from the main repo build)"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@agentplugins-teams/roster",
+  "version": "0.1.0",
+  "description": "Predefined agent roster with optional per-agent model and fallback configuration",
+  "type": "module",
+  "keywords": [
+    "agentplugins",
+    "orchestration",
+    "agents",
+    "roster",
+    "model-routing"
+  ],
+  "scripts": {
+    "build": "agentplugins build",
+    "validate": "agentplugins validate",
+    "lint": "agentplugins lint"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/espetro/agentplugins-teams.git",
+    "directory": "plugins/roster"
+  },
+  "devDependencies": {
+    "@agentplugins/core": "^0.5.0",
+    "typescript": "^5.5.0"
+  }
+}
