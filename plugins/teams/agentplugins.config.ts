@@ -15,9 +15,10 @@ import { definePlugin } from '@agentplugins/core';
  * Usage: /team <task-description>
  */
 export default definePlugin({
-  name: 'agentplugins-teams-teams',
+  name: 'teams-workflow',
   version: '0.1.0',
   description: 'Implicit peer workflow — /team spawns roster agents as teammates with a shared task list',
+  license: 'Apache-2.0',
 
   // Enable Claude Code's experimental agent-teams feature at session start
   hooks: {

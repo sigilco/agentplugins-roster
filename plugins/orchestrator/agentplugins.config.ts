@@ -11,9 +11,10 @@ import { definePlugin } from '@agentplugins/core';
  * Usage: /orchestrate <task-description>
  */
 export default definePlugin({
-  name: 'agentplugins-teams-orchestrator',
+  name: 'teams-orchestrator',
   version: '0.1.0',
   description: 'Explicit lead workflow — /orchestrate delegates tasks to roster agents as subagents',
+  license: 'Apache-2.0',
 
   skills: [
     {

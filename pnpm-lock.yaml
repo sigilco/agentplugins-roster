@@ -1,0 +1,146 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@agentplugins/core':
+        specifier: ^0.5.0
+        version: 0.5.0
+      typescript:
+        specifier: ^5.5.0
+        version: 5.9.3
+
+  plugins/orchestrator:
+    devDependencies:
+      '@agentplugins/core':
+        specifier: ^0.5.0
+        version: 0.5.0
+      typescript:
+        specifier: ^5.5.0
+        version: 5.9.3
+
+  plugins/roster:
+    devDependencies:
+      '@agentplugins/core':
+        specifier: ^0.5.0
+        version: 0.5.0
+      typescript:
+        specifier: ^5.5.0
+        version: 5.9.3
+
+  plugins/teams:
+    devDependencies:
+      '@agentplugins/core':
+        specifier: ^0.5.0
+        version: 0.5.0
+      typescript:
+        specifier: ^5.5.0
+        version: 5.9.3
+
+packages:
+
+  '@agentplugins/compile@0.5.0':
+    resolution: {integrity: sha512-+WecFomHbMooRTiQqofuRl37f1/VgP5gN9R4kHyRE4Lom3DdraIyZfLqGplRj2hwdty5wQeinvNn77bYa3Hu2w==}
+
+  '@agentplugins/contract@0.5.0':
+    resolution: {integrity: sha512-fDAyyNIjd8IcFAf8cuLIcSPk1k9t3BmibOjoowUUMafVbqLy+M7jy/pRn7gn6UF5Sqvg7G0KU9VC6DPFG9XYcQ==}
+
+  '@agentplugins/core@0.5.0':
+    resolution: {integrity: sha512-JxmKooK0gV/BXQGhKsbPDALdSpinlUKx9K+01B4unmqcrNb1hVpA/q9AKYMG/cjuiPA2uYnz8THWbyHGWH75SA==}
+
+  '@agentplugins/schema@0.5.0':
+    resolution: {integrity: sha512-fKMSVXkexICwdJUmOgfm+iKzQmJzE6l+Yl3un4syPoLKrLHcOlY9bNLvdPJIHBz1VVSudhbRCiZp78t0qIe2RQ==}
+
+  '@agentplugins/security@0.5.0':
+    resolution: {integrity: sha512-BmUESlD7gHZ0RNWp74Vu6Lg0Sz3gqiyyTuJCq52bdi2iRRODqswGe5NtiwspEk7dccdeUOzO6kq2qMxsU/W+PA==}
+
+  '@agentplugins/store@0.5.0':
+    resolution: {integrity: sha512-GG+A29i4/IUYZnXdRCNEOIZFdkwLAXR+9gBCl3Yz9Na9WCGitbrJSqqxpoGvquJdDtEj1p6a1sq3RdM74i62dg==}
+
+  ajv@8.20.0:
+    resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
+
+  fast-deep-equal@3.1.3:
+    resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
+
+  fast-uri@3.1.2:
+    resolution: {integrity: sha512-rVjf7ArG3LTk+FS6Yw81V1DLuZl1bRbNrev6Tmd/9RaroeeRRJhAt7jg/6YFxbvAQXUCavSoZhPPj6oOx+5KjQ==}
+
+  json-schema-traverse@1.0.0:
+    resolution: {integrity: sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==}
+
+  require-from-string@2.0.2:
+    resolution: {integrity: sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==}
+    engines: {node: '>=0.10.0'}
+
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  zod-to-json-schema@3.25.2:
+    resolution: {integrity: sha512-O/PgfnpT1xKSDeQYSCfRI5Gy3hPf91mKVDuYLUHZJMiDFptvP41MSnWofm8dnCm0256ZNfZIM7DSzuSMAFnjHA==}
+    peerDependencies:
+      zod: ^3.25.28 || ^4
+
+  zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
+
+snapshots:
+
+  '@agentplugins/compile@0.5.0':
+    dependencies:
+      '@agentplugins/contract': 0.5.0
+
+  '@agentplugins/contract@0.5.0':
+    dependencies:
+      zod: 3.25.76
+      zod-to-json-schema: 3.25.2(zod@3.25.76)
+
+  '@agentplugins/core@0.5.0':
+    dependencies:
+      '@agentplugins/compile': 0.5.0
+      '@agentplugins/contract': 0.5.0
+      '@agentplugins/store': 0.5.0
+      zod: 3.25.76
+
+  '@agentplugins/schema@0.5.0':
+    dependencies:
+      ajv: 8.20.0
+
+  '@agentplugins/security@0.5.0':
+    dependencies:
+      '@agentplugins/schema': 0.5.0
+
+  '@agentplugins/store@0.5.0':
+    dependencies:
+      '@agentplugins/compile': 0.5.0
+      '@agentplugins/security': 0.5.0
+
+  ajv@8.20.0:
+    dependencies:
+      fast-deep-equal: 3.1.3
+      fast-uri: 3.1.2
+      json-schema-traverse: 1.0.0
+      require-from-string: 2.0.2
+
+  fast-deep-equal@3.1.3: {}
+
+  fast-uri@3.1.2: {}
+
+  json-schema-traverse@1.0.0: {}
+
+  require-from-string@2.0.2: {}
+
+  typescript@5.9.3: {}
+
+  zod-to-json-schema@3.25.2(zod@3.25.76):
+    dependencies:
+      zod: 3.25.76
+
+  zod@3.25.76: {}

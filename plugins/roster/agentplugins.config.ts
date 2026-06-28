@@ -17,9 +17,10 @@ import { definePlugin } from '@agentplugins/core';
  *   agentplugins add espetro/agentplugins-teams#plugins/teams
  */
 export default definePlugin({
-  name: 'agentplugins-teams-roster',
+  name: 'teams-roster',
   version: '0.1.0',
   description: 'Predefined agent roster with per-agent model defaults and fallback chains',
+  license: 'Apache-2.0',
 
   // ─── Setup hook ─────────────────────────────────────────────────────────────
   // Probes available provider keys at install time and resolves each agent's
